@@ -3,13 +3,22 @@
 }
 
 .callout img {
-	
+	float: right;
+    margin: 0 0 10px 15px;
+    border: 1px solid #000;
+    padding: 3px;
+    background-color: #bbb;
+    width: 15   0px;
+    height: auto;
 }
 
 blockquote {
-	
+	margin: 0
 }
 
 cite {
-	
+	display: block;
+    border-top: 1px dotte #fff;
+    text-align: right;
+    font-size: smaller;
 }
