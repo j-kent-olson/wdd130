@@ -47,7 +47,7 @@ article {
     position: relative;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 10px;
     font-size: 60px;
@@ -63,13 +63,14 @@ h1 {
     height: auto;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 325px;
     background-color: rgb(from var(--secondary-color) r g b / 0.729);
     max-width: fit-content;
     margin: 50px;
     line-height: 20px;
+    font-size: var(--font-size);
 }
 
 .hero article img {
