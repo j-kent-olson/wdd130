@@ -1,8 +1,10 @@
 :root {
-    --primary-color: rgb(116, 234, 255);
+    --primary-color: rgb(48, 55, 255);
     --secondary-color: rgb(255, 255, 79);
     --accent1-color: black;
     --accent2-color: rgb(101, 101, 101);
+    --background-color: white;
+    --text-color: black;
     --font-size: 18px;
     --font-family: Arial, Helvetica, sans-serif;
 }
@@ -15,7 +17,8 @@
 
 body {
     font-family: var(--font-family);
-    color: var(--accent1-color);
+    color: var(--text-color);
+    background-color: var(--background-color);
 }
 
 header,
@@ -146,7 +149,7 @@ footer nav a {
 
 .socialmedia a img {
     height: 25px;
-    max-width: auto;
+    width: auto;
 }
 
 .hero {
