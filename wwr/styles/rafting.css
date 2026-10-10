@@ -106,6 +106,12 @@ footer nav {
     justify-content: right;
 }
 
+iframe {
+    width: 350px;
+    height: 300px;
+    float: left;
+}
+
 footer nav a {
     margin: 0 5px 0 5px;
     padding: 0;
@@ -191,4 +197,59 @@ footer nav a {
     width: 125px;
     border: 2px solid var(--accent2-color);
     box-shadow: 0 0 10px;
+}
+
+#info p,
+#info h1 {
+    text-align: center;
+    padding: 0;
+    margin: 5px;
+}
+
+#get-in-touch {
+    grid-template-columns: 1fr 1fr;
+}
+
+#employee {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#employee section h2 {
+    grid-column: 1 / 4;
+}
+
+#get-in-touch form {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+
+#get-in-touch form div {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.full-row {
+    grid-column: 1 / -1;
+}
+
+#employees section {
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid var(--accent1-color);
+}
+
+#employees section h2 {
+    text-align: center;
+}
+
+#employees section figure {
+    display: flex;
+    flex-direction: column;
+}
+
+#employees section figure img {
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
 }
