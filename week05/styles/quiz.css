@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -30,12 +31,44 @@ div {
 
 h2 {
     display: inline;
+    color: darkblue;
+    font-size: 20px;
+}
+
+p {
+    border: 1px solid black;
+    padding: 15px;
+    background-color: rgb(64, 64, 64);
+    color: white;
+    margin: 10px auto;
+    width: 375px;
+}
+
+input {
+    padding: 10px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input,
+textarea,
+select,
+button {
+    display: block;
+    margin: 10px auto 0 auto;
+    width: 450px;
+}
+
+select {
+    padding: 10px;
 }
 
 button {
     background-color: darkblue;
     color: white;
-    width: 100px;
-    margin: 0 auto;
-
+    margin-bottom: 10px;
+    height: 35px;
+    border-radius: 7px;
 }
