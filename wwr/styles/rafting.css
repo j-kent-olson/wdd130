@@ -224,6 +224,11 @@ footer nav a {
     grid-template-columns: 100px 1fr;
 }
 
+#get-in-touch form p {
+    margin: auto 0;
+    padding: 0;
+}
+
 #get-in-touch form div {
     display: flex;
     flex-direction: column;
