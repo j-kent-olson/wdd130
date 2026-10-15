@@ -259,6 +259,16 @@ footer nav a {
     font-size: 25px;
 }
 
+#choose-trip {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(from var(--secondary-color) r g b / 0.729);
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+}
+
 #select-trip {
     text-decoration: none;
     background-color: var(--secondary-color);
