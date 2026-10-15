@@ -5,7 +5,7 @@
 <head>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Rafting Travel - Contact Us</title>
+    <title>Contact Us - Rafting Travel</title>
     <link rel='stylesheet' href='styles/rafting.css'>
     <meta name="description"
       content="Check out our prices for a complete white water rafting experience. Contact us for any questions.">
@@ -44,12 +44,13 @@
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="name@email.com" required>
                 <label for="purpose">Message Purpose</label>
-                <div>
-                    <label><input type="radio" name="purpose" value="General"> General
+                <div id="purpose">
+                    <label><input type="radio" name="purpose" value="General" id="general"> General
                         Inquiry</label>
-                    <label><input type="radio" name="purpose" value="Reservation"> Reservation
+                    <label><input type="radio" name="purpose" value="Reservation" id="reservation">
+                        Reservation
                         Question</label>
-                    <label><input type="radio" name="purpose" value="Website"> Website
+                    <label><input type="radio" name="purpose" value="Website" id="website"> Website
                         Suggestion</label>
                 </div>
                 <label for="message" class="full-row">Message</label>
